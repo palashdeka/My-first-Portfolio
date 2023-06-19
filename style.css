@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+}
+.top-box{
+    height: 60px;
+    background-color: #8B1874;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navigation-box{
+    /*border: 5px solid white;*/
+    width: 800px;
+    height: 60px;
+    color: aliceblue;
+}
+.navigation-box ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.navigation-box ul {
+    list-style: none;
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+.navigation-box ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.top-box h1{
+    color: white;
+    font-size: 50px;
+}
+.about-box{
+    height: 500px;
+   background-color:#89375F ;
+}
+.about-box h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.about-row{
+    /*border: 2px solid white;*/
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.about-col{
+    /*border: 2px solid yellow;*/
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-col img{
+    height: 50%;
+    margin-left: 100px;
+    padding-right: 100px;
+}
+.button{
+    color: red;
+    text-decoration: none;
+    
+}
+#para{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-right: 100px;
+}
+.project{
+    background-image: url(background\ img.jpg);
+    height: 700px;
+}
+.project h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(226, 43, 61);
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.project ul{
+    font-size: 50px;
+    margin-left: 100px;
+    color: deeppink;
+}
+.Achievement{
+    background-color: #89375F;
+    height: 300px;
+    color: white;
+    padding: 60px;
+}
+.Achievement h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.Achievement ul{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.contacts{
+    background-color: black;
+    height: 600px;
+    color: white;
+}
+ .contacts h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+.contacts-form{
+    background-color: #89375F;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    color: black;
+}
+form{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+table{
+     color: white;
+}
+table td{
+    /*border: 2px solid black;*/
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+input[type="submit"]{
+    margin-left: 200px;
+    width: 30%;
+    background-color: chartreuse;
+}
+.social-media{
+    background-color: #9BA4B5;
+    /*height: 45px;*/
+    padding: 10px;
+}
+.social-media td{
+    border: 1px solid white;
+    padding: 0px 50px;
+    color: black;
+}
+.social-media table td:last-child{
+    border-right: none;
+}
+.social-media table{
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
